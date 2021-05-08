@@ -1,0 +1,23 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(136, 136, 185);
+}
+#movies-list {
+	margin-top: 4rem;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#movie {
+	width: 400px;
+	height: 350px;
+	border: 3px solid lightgray;
+}
+.txt {
+	font-size: 2rem;
+	text-align: center;
+}
