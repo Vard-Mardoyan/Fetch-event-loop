@@ -6,11 +6,9 @@ const h = document.getElementById("hour");
 const m = document.getElementById("minute");
 const s = document.getElementById("sec");
 
-//store a reference to the startTimer constiable
 const startTimer = null;
 
 start.addEventListener("click", function () {
-	//initialize the constiable
 	function startInterval() {
 		startTimer = setInterval(function () {
 			timer();
@@ -23,8 +21,7 @@ reset.addEventListener("click", function () {
 	h.value = 0;
 	m.value = 0;
 	s.value = 0;
-	
-	//stop the timer after pressing "reset"
+
 	stopInterval();
 });
 
@@ -44,9 +41,6 @@ function timer() {
 	}
 	return;
 }
-
-//stop the function after pressing the reset button,
-//so the time wont go down when selecting a new time after pressing reset
 function stopInterval() {
 	clearInterval(startTimer);
 }
