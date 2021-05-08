@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.title {
+	margin-top: 30px;
+	color: rgb(81, 81, 97);
+	text-align: center;
+}
+#container {
+	width: 370px;
+	height: 240px;
+	background-color: paleturquoise;
+	padding: 5px;
+	margin-top: 20px;
+}
+.label {
+	display: flex;
+	flex-direction: row;
+	align-items: space-between;
+	margin-top: 40px;
+	color: rgb(140, 140, 168);
+}
+.time {
+	border-color: lavender;
+	padding: 10px 5px;
+	background: none;
+}
+.btn {
+	width: 100px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: 45px;
+	background: none;
+	color: rgb(140, 140, 168);
+	border-color: rgb(173, 177, 177);
+}
