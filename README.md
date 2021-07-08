@@ -1,8 +1,8 @@
 ### Dog Breed Selector
-Search dog breed name and get their names and images.
+Select with options of the following dog breeds and get their images.
 
 ### Timer
 Simple timer
 
 ### Movies
-Used Movies API
+Some detailed data about movies. Used Movies API
